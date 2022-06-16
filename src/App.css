@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+    color: var(--first-color);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.clr{
+    clear: both;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+img{
+    width: 100%;
+}
+html, body {
+    height: 100%;
+    overflow: hidden;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .full-height {
+    height: 100%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+:root{
+    --first-color: #2a2f38;
+    --red-color: #eb3d34;
+    --th-color: #b8b9bb;
+    --white-color: white;
+    --font:'Quicksand', sans-serif;
 }
+a{
+    text-decoration: none !important;
+    color: var(--first-color) !important;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var(--font-b);
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--font-b);
+}
+p{
+  font-family: var(--font-b);
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--first-color) !important;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(163, 163, 163) !important;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--red-color) !important;
+  }
