@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/system-cashier/static/css/main.dbfc91f3.css",
+    "main.js": "/system-cashier/static/js/main.20f06bae.js",
+    "index.html": "/system-cashier/index.html",
+    "main.dbfc91f3.css.map": "/system-cashier/static/css/main.dbfc91f3.css.map",
+    "main.20f06bae.js.map": "/system-cashier/static/js/main.20f06bae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbfc91f3.css",
+    "static/js/main.20f06bae.js"
+  ]
+}
